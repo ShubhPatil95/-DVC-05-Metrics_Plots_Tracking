@@ -18,7 +18,6 @@ git init
 dvc init
 ``` 
 
-``` 
 ### Step3
 * Create a github repository under name DVC-05-Metrics_Tracking and add git remote repository.
 ```ruby
@@ -80,7 +79,7 @@ dvc dag
 dvc metrics show
 ```
 ### Step10
-*Push the changes to github
+* Push the changes to github
 ```ruby
 git add .
 git commit -m "First Commit"
@@ -88,7 +87,7 @@ git branch -M main
 git push -u origin main
 ```
 ## Step11
-*Now just change below 2 parameters in params.yaml and run dvc repro and see the revised results.
+* Now just change below 2 parameters in params.yaml and run dvc repro and see the revised results.
   <br>random_state: 20
   <br>test_size: 0.5
 ```ruby
@@ -99,14 +98,14 @@ dvc repro
 <br>Precision==> 0.8533333333333334
 
 ## Step12
-*To see a metrics of current execution, run a command dvc metrics show
-*To see difference in current execution and last committed execution run a command dvc metrics diff
+* To see a metrics of current execution, run a command dvc metrics show
+* To see difference in current execution and last committed execution run a command dvc metrics diff
 ```ruby
 dvc metrics show
 dvc metrics diff
 ```
 ### Step13
-*Push the changes to github
+* Push the changes to github
 ```ruby
 git add .
 git commit -m "Second Commit"
