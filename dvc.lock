@@ -1,0 +1,26 @@
+schema: '2.0'
+stages:
+  create_model:
+    cmd: python code.py --config=params.yaml
+    deps:
+    - path: Iris_Flower_Dataset.csv
+      md5: ca5e72f040c30d6c8ad09f3981aa6adf
+      size: 2616
+    - path: code.py
+      md5: 8f3fbb035dc535cfed845a33295725bd
+      size: 2559
+    params:
+      params.yaml:
+        base.random_state: 10
+        base.test_size: 0.2
+        data_source.local_data_path: Iris_Flower_Dataset.csv
+        model.logistic_regression.average: weighted
+        model.logistic_regression.fit_intercept: true
+        model.logistic_regression.multi_class: ovr
+    outs:
+    - path: reports/params.json
+      md5: b9dbd51f57e0ea6c3085e0c86bfc0033
+      size: 101
+    - path: reports/scores.json
+      md5: 713ce62e5d9f5b85eea2a0d964e6cdd9
+      size: 109

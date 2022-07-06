@@ -1,0 +1,17 @@
+base:
+  project: 'DVC_Metrics_Tracking'
+  random_state: 10
+  test_size: 0.2
+
+data_source:
+  local_data_path: 'Iris_Flower_Dataset.csv'
+
+model:
+  logistic_regression:
+    fit_intercept: True
+    multi_class: 'ovr'
+    average : 'weighted'
+    
+reports:
+  scores: 'reports/scores.json'
+  params : 'reports/params.json'
