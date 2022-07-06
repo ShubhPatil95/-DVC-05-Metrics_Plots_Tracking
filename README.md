@@ -26,7 +26,7 @@ git remote add origin https://github.com/ShubhPatil95/DVC-05-Metrics_Tracking.gi
 ```
 
 ### Step4  
-* Copy and paste containt of code.py and Iris_Flower_Dataset.csv from here [code.py](https://github.com/ShubhPatil95/DVC-04-Simple_DVC_Project/blob/220e6405c49d091e68635604f60330864c1b5f62/code.py) and [Iris_Flower_Dataset.csv](https://raw.githubusercontent.com/ShubhPatil95/Raw_Data_Storage/main/data_school-1.csv)
+* Copy and paste containt of code.py and Iris_Flower_Dataset.csv from here [code.py](https://github.com/ShubhPatil95/DVC-05-Metrics_Tracking/blob/main/code_initial.py) and [Iris_Flower_Dataset.csv](https://raw.githubusercontent.com/ShubhPatil95/DVC-05-Metrics_Tracking/main/Iris_Flower_Dataset.csv)
 
 
 ### Step5
@@ -44,12 +44,12 @@ python3 code.py
 * Hence, here we will keep all those hyperameter in seperate file name params.yaml and code.py will read those parameters from params.yaml. So if we want to change any paramters now we have to just change the params.yaml instead of code.py
 
 ### Step7
-* Create an file params.yaml which will stores all those parameters of code.py. Just copy and paste params.yaml from here [params.yaml](https://googl.com)
+* Create an file params.yaml which will stores all those parameters of code.py. Just copy and paste params.yaml from here [params.yaml](https://github.com/ShubhPatil95/DVC-05-Metrics_Tracking/blob/3371603cdbcaf07d710e35676139ec72ee15054d/params.yaml)
 ```ruby
 touch params.yaml
 ```
 ### Step8
-* Now in code.py, provide all hyperparamters reading from params.yaml. Just copy and paste updated code.py from here[code.py](https://www.google.com)
+* Now in code.py, provide all hyperparamters reading from params.yaml. Just copy and paste updated code.py from here[code.py](https://github.com/ShubhPatil95/DVC-05-Metrics_Tracking/blob/b4181cb7feefd8c6b2a6f8eb97f6edb75ba7bfb6/code.py)
 * In updated code.py we are exporting 2 file, scores.json and params.json in foler name: reports. These are the 2 file are tracking our metrics and same names are mentioend on params.yaml as well.
 
 ### Step7
@@ -63,7 +63,7 @@ python3 code.py
 <br>Precision==> 0.9692307692307692
 
 ### Step8
-* Create a dvc.yaml file. Copy and paste dvc.yaml from [dvc.yaml](https://www.google.com).
+* Create a dvc.yaml file. Copy and paste dvc.yaml from [dvc.yaml](https://github.com/ShubhPatil95/DVC-05-Metrics_Tracking/blob/b4181cb7feefd8c6b2a6f8eb97f6edb75ba7bfb6/dvc.yaml)
 * Here in this example we only have one stage name, create_model.
 * This will keep the details of stages, dependencies,parameters,metrics and outputs ofeach stage.
 ```ruby
