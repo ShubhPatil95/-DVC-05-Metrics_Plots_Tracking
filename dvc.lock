@@ -11,16 +11,16 @@ stages:
       size: 2559
     params:
       params.yaml:
-        base.random_state: 10
-        base.test_size: 0.2
+        base.random_state: 20
+        base.test_size: 0.5
         data_source.local_data_path: Iris_Flower_Dataset.csv
         model.logistic_regression.average: weighted
         model.logistic_regression.fit_intercept: true
         model.logistic_regression.multi_class: ovr
     outs:
     - path: reports/params.json
-      md5: b9dbd51f57e0ea6c3085e0c86bfc0033
+      md5: 95aa9cc4cd4e55566610894594da4277
       size: 101
     - path: reports/scores.json
-      md5: 713ce62e5d9f5b85eea2a0d964e6cdd9
+      md5: 95269a82ef738c696ff07d7f17c00899
       size: 109

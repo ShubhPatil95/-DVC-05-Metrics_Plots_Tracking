@@ -1,7 +1,7 @@
 base:
   project: 'DVC_Metrics_Tracking'
-  random_state: 10
-  test_size: 0.2
+  random_state: 20
+  test_size: 0.5
 
 data_source:
   local_data_path: 'Iris_Flower_Dataset.csv'
