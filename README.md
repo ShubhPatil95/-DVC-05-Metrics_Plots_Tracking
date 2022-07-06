@@ -49,7 +49,7 @@ python3 code.py
 touch params.yaml
 ```
 ### Step8
-* Now in code.py, provide all hyperparamters reading from params.yaml. Just copy and paste updated code.py from here[code.py](https://github.com/ShubhPatil95/DVC-05-Metrics_Tracking/blob/b4181cb7feefd8c6b2a6f8eb97f6edb75ba7bfb6/code.py)
+* Now in code.py, provide all hyperparamters reading from params.yaml. Just copy and paste updated code.py from here [code.py](https://github.com/ShubhPatil95/DVC-05-Metrics_Tracking/blob/b4181cb7feefd8c6b2a6f8eb97f6edb75ba7bfb6/code.py)
 * In updated code.py we are exporting 2 file, scores.json and params.json in foler name: reports. These are the 2 file are tracking our metrics and same names are mentioend on params.yaml as well.
 
 ### Step7
