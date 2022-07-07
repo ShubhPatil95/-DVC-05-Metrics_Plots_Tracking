@@ -4,6 +4,7 @@
 <strong> In this tutorial we will see how DVC helps to track the metrics and reproduce the projects </strong>
 
 ### Step1
+* First of all create virtual environment and install dvc follwing steps from [here](https://github.com/ShubhPatil95/DVC-01-Installation)
 * Create a folders under name DVC-05-Metrics_Tracking. Further create a code.py and Iris_Flower_Dataset.csv files and reports folder inside of DVC-05-Metrics_Tracking.
 ```ruby
 mkdir DVC-05-Metrics_Tracking
@@ -29,7 +30,12 @@ git remote add origin https://github.com/ShubhPatil95/DVC-05-Metrics_Tracking.gi
 
 
 ### Step5
-* Lets run code.py and see the outputs and you will see outputs shown below.
+* Install depencies manually.
+```ruby
+pip3 install pandas
+pip3 install  sklearn
+```
+* Lets run code.py and you will see outputs shown below.
 ```ruby
 python3 code.py
 ```
